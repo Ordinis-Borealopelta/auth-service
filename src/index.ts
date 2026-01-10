@@ -2,7 +2,7 @@ import { serve } from "bun";
 import { Hono } from "hono";
 import { auth } from "./lib/auth";
 
-const port = Bun.env.PORT || 4000;
+const port = Bun.env.AUTH_PORT || 4000;
 
 const app = new Hono();
 
